@@ -204,21 +204,21 @@ INSERT INTO charac (
     charac_name, actor_id, movie_id
 )
 VALUES 
-    ("Bruce Wayne", 1, 1), -- Christian Bale in Batman Begins
-    ("Alfred", 2, 1), -- Michael Caine in Batman Begins
-    ("Ra's Al Ghul", 3, 1), -- Liam Neeson in Batman Begins
-    ("Rachel Dawes", 4, 1), -- Katie Holmes in Batman Begins
-    ("Commissioner Gordon", 5, 1), -- Gary Oldman in Batman Begins
-    ("Bruce Wayne", 6, 2), -- Christian Bale in The Dark Knight
-    ("Joker", 7, 2), -- Heath Ledger in The Dark Knight
-    ("Harvey Dent", 8, 2), -- Aaron Eckhart in The Dark Knight
-    ("Alfred", 9, 2), -- Michael Caine in The Dark Knight
-    ("Rachel Dawes", 10, 2), -- Maggie Gyllenhaal in The Dark Knight
-    ("Bruce Wayne", 11, 3), -- Christian Bale in The Dark Knight Rises
-    ("Commissioner Gordon", 12, 3), -- Gary Oldman in The Dark Knight Rises
-    ("Bane", 13, 3), -- Tom Hardy in The Dark Knight Rises
-    ("John Blake", 14, 3), -- Joseph Gordon-Levitt in The Dark Knight Rises
-    ("Selina Kyle", 15, 3); -- Anne Hathaway in The Dark Knight Rises
+    ("Bruce Wayne", 1, 1), 
+    ("Alfred", 2, 1), 
+    ("Ra's Al Ghul", 3, 1), 
+    ("Rachel Dawes", 4, 1), 
+    ("Commissioner Gordon", 5, 1), 
+    ("Bruce Wayne", 6, 2), 
+    ("Joker", 7, 2), 
+    ("Harvey Dent", 8, 2), 
+    ("Alfred", 9, 2), 
+    ("Rachel Dawes", 10, 2), 
+    ("Bruce Wayne", 11, 3), 
+    ("Commissioner Gordon", 12, 3), 
+    ("Bane", 13, 3), 
+    ("John Blake", 14, 3), 
+    ("Selina Kyle", 15, 3);
 
 -- Prints a header for the movies output
 .print "Movies"
